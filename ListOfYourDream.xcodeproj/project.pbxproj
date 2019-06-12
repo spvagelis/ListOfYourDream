@@ -13,6 +13,14 @@
 		090AA21C22B105DA00266632 /* ListOfYourDream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 090AA21A22B105DA00266632 /* ListOfYourDream.xcdatamodeld */; };
 		090AA21E22B105DA00266632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090AA21D22B105DA00266632 /* Assets.xcassets */; };
 		090AA22122B105DA00266632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090AA21F22B105DA00266632 /* LaunchScreen.storyboard */; };
+		090AA23022B10C6B00266632 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090AA22822B10C6B00266632 /* Item+CoreDataClass.swift */; };
+		090AA23122B10C6B00266632 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090AA22922B10C6B00266632 /* Item+CoreDataProperties.swift */; };
+		090AA23222B10C6B00266632 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090AA22A22B10C6B00266632 /* Image+CoreDataClass.swift */; };
+		090AA23322B10C6B00266632 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090AA22B22B10C6B00266632 /* Image+CoreDataProperties.swift */; };
+		090AA23422B10C6B00266632 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090AA22C22B10C6B00266632 /* Store+CoreDataClass.swift */; };
+		090AA23522B10C6B00266632 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090AA22D22B10C6B00266632 /* Store+CoreDataProperties.swift */; };
+		090AA23622B10C6B00266632 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090AA22E22B10C6B00266632 /* ItemType+CoreDataClass.swift */; };
+		090AA23722B10C6B00266632 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090AA22F22B10C6B00266632 /* ItemType+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		090AA21D22B105DA00266632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		090AA22022B105DA00266632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		090AA22222B105DA00266632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090AA22822B10C6B00266632 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		090AA22922B10C6B00266632 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		090AA22A22B10C6B00266632 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		090AA22B22B10C6B00266632 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		090AA22C22B10C6B00266632 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		090AA22D22B10C6B00266632 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		090AA22E22B10C6B00266632 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		090AA22F22B10C6B00266632 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		090AA21222B105DA00266632 /* ListOfYourDream */ = {
 			isa = PBXGroup;
 			children = (
+				090AA23822B10C9800266632 /* Model */,
 				090AA21322B105DA00266632 /* AppDelegate.swift */,
 				090AA21522B105DA00266632 /* ViewController.swift */,
 				090AA21722B105DA00266632 /* Main.storyboard */,
@@ -65,6 +82,29 @@
 				090AA21A22B105DA00266632 /* ListOfYourDream.xcdatamodeld */,
 			);
 			path = ListOfYourDream;
+			sourceTree = "<group>";
+		};
+		090AA23822B10C9800266632 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				090AA22822B10C6B00266632 /* Item+CoreDataClass.swift */,
+				090AA22A22B10C6B00266632 /* Image+CoreDataClass.swift */,
+				090AA22C22B10C6B00266632 /* Store+CoreDataClass.swift */,
+				090AA22E22B10C6B00266632 /* ItemType+CoreDataClass.swift */,
+				090AA23922B10CAF00266632 /* Generated */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		090AA23922B10CAF00266632 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				090AA22922B10C6B00266632 /* Item+CoreDataProperties.swift */,
+				090AA22B22B10C6B00266632 /* Image+CoreDataProperties.swift */,
+				090AA22D22B10C6B00266632 /* Store+CoreDataProperties.swift */,
+				090AA22F22B10C6B00266632 /* ItemType+CoreDataProperties.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +180,15 @@
 			files = (
 				090AA21622B105DA00266632 /* ViewController.swift in Sources */,
 				090AA21422B105DA00266632 /* AppDelegate.swift in Sources */,
+				090AA23622B10C6B00266632 /* ItemType+CoreDataClass.swift in Sources */,
+				090AA23022B10C6B00266632 /* Item+CoreDataClass.swift in Sources */,
+				090AA23222B10C6B00266632 /* Image+CoreDataClass.swift in Sources */,
+				090AA23522B10C6B00266632 /* Store+CoreDataProperties.swift in Sources */,
 				090AA21C22B105DA00266632 /* ListOfYourDream.xcdatamodeld in Sources */,
+				090AA23722B10C6B00266632 /* ItemType+CoreDataProperties.swift in Sources */,
+				090AA23422B10C6B00266632 /* Store+CoreDataClass.swift in Sources */,
+				090AA23122B10C6B00266632 /* Item+CoreDataProperties.swift in Sources */,
+				090AA23322B10C6B00266632 /* Image+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
